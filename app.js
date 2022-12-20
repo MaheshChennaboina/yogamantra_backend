@@ -1,4 +1,5 @@
 import express from 'express';
+import mysql2 from 'mysql2';
 import cors from 'cors'
 import bcrypt from 'bcrypt'
 import session from 'express-session';
