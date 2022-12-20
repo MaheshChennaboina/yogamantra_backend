@@ -4,7 +4,6 @@
   "description": "Creating yoga Admission form",
   "main": "app.js",
   "type": "module",
-  "repository": "https://github.com/render-examples/express-hello-world",
   "author": "Render Developers",
   "license": "MIT",
   "private": false,
