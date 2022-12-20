@@ -11,7 +11,6 @@ const port = process.env.PORT || 3001;
 app.use(express.json());
 app.use(cors(
     {
-        origin:["https://yogamantra.netlify.app/"],
         methods:["GET","POST"],
         credentials:true
     }))
