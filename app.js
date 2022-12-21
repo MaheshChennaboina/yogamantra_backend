@@ -11,6 +11,7 @@ const port = process.env.PORT || 3001;
 app.use(express.json());
 app.use(cors(
     {
+        origin:"https://friendly-pixie-a5e98f.netlify.app/"
         methods:["GET","POST"],
         credentials:true
     }))
