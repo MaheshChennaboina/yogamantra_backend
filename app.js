@@ -6,7 +6,7 @@ import session from 'express-session';
 import bodyParser from 'body-parser'
 import cookieParser  from 'cookie-parser'
 const app = express();
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 10000;
 
 app.use(express.json());
 app.use(cors(
